@@ -46,13 +46,22 @@ isNaviArrow : false or true
 
 (3) my-slider-버전.css 스타일 시트와 my-slider-버전.min.js 스크립트를 생성한 다음, MySlider 객체를 생성하면 슬라이딩이 정상적으로 동작한다.
 	(예) var ms = new MySlider({
+	
 		slideHolder: "slider-holder",
+		
 		slide: "slide",
+		
 		buttonHolder: "btn-nav-holder",
+		
 		speed: 1E3,
+		
 		slidingPlane: "horizontal",
+		
 		period:2E3,
+		
 		direction:"left",
+		
 		isNaviArrow: true
+		
 	});
 
