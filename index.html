@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title> jQuery Image Slider </title>
+<meta name="author" content="Sangbom Suhk" />
+<meta name="keywords" content="slide" />
+<meta name="description" content="jQuery Image Slider" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/my-slider-1.2.0.css">
+<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="slider-holder">
+		<div class="slide">
+			<img src="images/universe_1.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_2.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_3.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_4.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_5.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_6.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_7.jpg" width="800" height="500" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/universe_8.jpg" width="800" height="500" alt="" />
+		</div>
+		<div id="btn-nav-holder">
+			<img src="images/bn-slide-on.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+			<img src="images/bn-slide-off.png" width="8" height="8" alt="" />
+		</div>
+		<div id="first-arrow">
+			<img src="images/left-arrow.png" width="20" height="40" alt="" />
+		</div>
+		<div id="second-arrow">
+			<img src="images/right-arrow.png" width="20" height="40" alt="" />
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="./js/my-slider-1.2.0.min.js"></script>
+<script type="text/javascript">
+<!--
+var ms = new MySlider({
+	slideHolder: "slider-holder",
+	slide: "slide",
+	buttonHolder: "btn-nav-holder",
+	speed: 1E3,
+	slidingPlane: "horizontal",
+	period:2E3,
+	direction:"left",
+	isNaviArrow: true
+});	
+//-->
+</script>
+</html>
